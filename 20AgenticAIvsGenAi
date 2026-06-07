@@ -1,0 +1,30 @@
+Generative AI - 
+Text, Image, audio, video - that looks like it was created by human.
+
+	- How it works 
+		○ It train on huge dataset(book, code, images)
+		○ Uses models like Transformer(eg. GPT,LLaMA, Gemini, Calude)
+		○ Learns Patterns, style and relationships in data- then create new example those fit those pattern.
+		○ Examples:
+			§ Text - ChatGPT writing easy or code .
+			§ Image - DALLE , Midjourney generating picture.
+			§ Audio - MusicLm creating song 
+			§ Video - Sora(by OpenAI), RunwayML generating video clip
+
+
+AI Agent 
+	An AI system that can act autonomously , make decision, and perform task - often using Generative AI as one of its tool.
+	
+	- How it works
+		○ Has goals, memory and tools
+		○ Can reason, plan, and take action(e.g. browse the  web, send emails, write code, update files)
+		○ Often uses generative AI models (like GPT) as the brain 
+		○ 
+			Example 
+			AI agent  
+			AutoGPT   - Runs Gpt to complete multi steps goal automatically
+			Devin(by cognition) - Write, test, debug code automatically
+			Chat gpt with action - Execute commands uses APIs, or searches the web
+		○ Eg . It doesn’t just talk, it actually does things.
+	
+			 
