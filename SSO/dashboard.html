@@ -1,0 +1,46 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <title>Dashboard</title>
+    <link rel="stylesheet" href="/static/style.css">
+</head>
+
+<body>
+
+<div class="container">
+
+    <h1>Dashboard</h1>
+
+    <p><strong>Name:</strong> {{ user['name'] }}</p>
+    <p><strong>Email:</strong> {{ user['preferred_username'] }}</p>
+
+    <hr>
+
+    <h3>Navigation</h3>
+
+    <a href="/home">
+        <button>Home</button>
+    </a>
+
+    <br><br>
+
+    <a href="/reports">
+        <button>Reports</button>
+    </a>
+
+    <br><br>
+
+    <a href="/settings">
+        <button>Settings</button>
+    </a>
+
+    <br><br>
+
+    <a href="/logout">
+        <button>Logout</button>
+    </a>
+
+</div>
+
+</body>
+</html>
